@@ -1,0 +1,471 @@
+@font-face {
+    font-family: "brown";
+    src:url(BrownMedium\ Regular.ttf);
+  }
+a{
+   color: rgb(39, 39, 39);
+}  
+body{
+    margin: 0%;
+}
+.brand{
+    width: 100%;
+    height: 48px;
+    background-color: #fff;
+    display: flex;
+}
+.brand p{
+    font-size: 15px;
+    padding-left:160px ;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color: #898989;
+}
+.brand img{
+    height: 23px;
+    width: 70px;
+    margin-top: 11px;
+    margin-left: 70%;
+    
+}
+.homepage{
+    background-image: url(images/lift-hpb-desktop.jpg);
+    height: 550px;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.navbar{
+    
+    height: 90px;
+    width: 100%;
+    
+}
+
+#logo-img{
+    width: 114px;
+    height: 35px;
+    padding-left: 160px;
+    padding-top: 26px;
+}
+nav li{
+    display: inline-block;
+    margin-right: 35px;
+    font-family: "brown";
+    padding-left: 10px;
+
+}
+nav li:hover{
+     color: #252A2C;
+     background-color: #fff;
+    width: 90px;
+    height: 30px; 
+    border-radius: 20px;
+    text-align: center;
+    
+    
+}
+nav ul{
+    list-style-type: none;
+    padding-left: 38%;
+    margin-top: -2%;
+    justify-content: center;
+}
+/*.nav-icons {
+    width: 60px;
+    height: 100%;
+    background-color: yellowgreen;
+    align-items: end;
+    margin-left: 10rem;
+}*/
+.nav-icon-search{
+    height: 18px;
+    padding-left: 187px;
+    margin-top: 0px;
+}
+.nav-icon-user{
+    height: 30px;
+    padding-left: 40px;
+    padding-top: 1%;
+}
+/* .nav-icon-search2{
+    height: 20px;
+    padding-left: 500px;
+    margin-top: 0px;
+} */
+
+
+.ik{
+    width: 25%;
+    height: 40px;
+    margin-top: -42px;
+    margin-left: 1112px;
+    display: flex;
+    align-items: center;
+}
+
+.home-text{
+    align-items: center;
+    height: 420px;
+    width: 100%;
+    padding-right: 0px;
+    color: rgb(44, 44, 44);
+}
+.home-text h1{
+    padding-left: 511px;
+    padding-top: 0px;
+    font-size: 71px;
+    font-family: sans-serif;
+}
+.home-text h2{
+    margin-top: -2rem;
+    margin-left: 35rem;
+    font-family: math;
+}
+.home-text button{
+   margin-left: 43rem;
+   background-color:  rgb(44, 43, 43);
+   width: 150px;
+   height: 50px;
+  border-color: #252A2C;
+   color: white;
+   font-weight: 550;
+}
+.home-text button:hover{
+   background-color: transparent;
+}
+.second-page{
+    height: 750px;
+    width: 100%;
+    background-color:rgb(255, 255, 255);
+
+}
+.second-section{
+    display: flex; 
+    height: 700px;
+    width: 90%;
+    background-color: rgb(255, 255, 255);
+    margin: 0 auto;
+
+}
+.second-section h3:hover{
+    text-decoration: underline;
+
+}
+.second-section span:hover{
+    text-decoration: underline;
+}
+.img1{
+   
+    width: 30%;
+    height: 650px;
+    margin-left: 80px;
+    margin-top: 85px;
+}
+
+.img1 h3{
+    color: rgb(0, 0, 0);
+    font-family: Arial, Helvetica, sans-serif;
+}
+.img1 p{
+    margin-top: -26px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.img2{
+   
+    width: 30%;
+    height: 650px;
+    margin-top: 85px;
+}
+
+.img2 h3{
+    color: rgb(0, 0, 0);
+   
+}
+.img2 p{
+    margin-top: -26px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+
+}
+
+.img3{
+   
+    width: 30%;
+    height: 650px;
+    margin-top: 85px;
+}
+
+.img3 h3{
+    color: rgb(0, 0, 0);
+    font-family: Arial, Helvetica, sans-serif;
+}
+.img3 p{
+    margin-top: -26px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+
+}
+.third-page{
+    display: flex;
+    height: 850px;
+    width: 100%;
+    background-color:rgb(255, 255, 255);
+    align-items: center;
+
+}
+.third-section{
+    display: flex; 
+    height: 700px;
+    width: 90%;
+    background-color: rgb(255, 255, 255);
+    margin: 0 auto;
+
+}
+.timg134{
+    height: 683px;
+    width: 790px;
+    margin-left: 86px;
+}
+.timg1{
+    height: 450px;
+    width: 100%;
+    
+} 
+
+.timg1 img{
+    width: 100%;
+    height: 100%;
+}
+.timg1 img :hover{
+    background-color: 5;
+}
+.mk{
+    text-align: center;
+    transform: translate(1px,-88px);
+    
+}
+
+.timg2{
+    height: 683px;
+    width: 389px;
+    margin-left: 21px;
+}
+.timg2 img{
+    width: 100%;
+    height: 100%;
+}
+.vc{
+    text-align: center;
+    transform: translate(1px,-88px);
+    
+}
+.timg34{
+    display: flex;
+    height: 215px;
+    width: 790px;
+    margin-top: 18px;
+}
+.timg3{
+    height: 100%;
+    width: 385px;
+}
+.timg3 img{
+    width: 100%;
+    height: 100%;
+}
+.md{
+    text-align: center;
+    transform: translate(1px,-88px);
+    
+}
+.timg4{
+    height: 100%;
+    width: 385px;
+    margin-left: 20px;
+}   
+.timg4 img{
+    width: 100%;
+    height: 100%;
+}
+.he{
+    text-align: center;
+    transform: translate(1px,-88px);
+    
+}
+.section-four{
+    background-color: #e10b0b;
+    width: 100%;
+    height: 750px;
+
+}
+.section-four img{
+    width: 100%;
+    height: 750px;
+}
+.sf-text{
+    text-align: center;
+    transform: translate(1px,-590px);
+}
+#textimage{
+    height: 100px;
+    width: 180px;
+}
+.sf-text h2{
+    color: rgb(255, 255, 255);
+    font-size: 60px;
+    margin-top: -5px;
+    font-family: sans-serif;
+}
+.sf-text p{
+    color: rgb(255, 255, 255);
+    font-size: 15px;
+    margin-top: -40px;
+    font-family: sans-serif;
+    font-weight: 550;
+
+}
+.sf-text button{
+   background-color:  rgb(255, 255, 255);
+   width: 350px;
+   height: 50px;
+   color: rgb(0, 0, 0);
+   size: 9px;
+   border-color: #fff;
+   font-weight: 550;
+}
+.sf-text button:hover{
+    background-color: transparent;
+    color: #fff;
+   
+}
+.section-five{
+    background-color: #252A2C;
+    width: 100%;
+    height: 625px;
+}
+.up{
+    width: 100%;
+    height: 412px;
+    display: flex;
+}
+.about{
+    height: 100%;
+    width: 307px;
+    margin-left: 159px;
+}
+.up h5{
+    margin-top: 96px;
+    font-family: sans-serif;
+    color: #fff;
+}
+.up span{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color: #aeaeae;
+}
+.values{
+    height: 100%;
+    width: 307px;
+    
+}
+tr{
+    height: 40px;
+    width: 80px;
+}
+.up span:hover{
+    text-decoration: underline;
+}
+
+.costomers{
+    height: 100%;
+    width: 307px;
+    
+}
+
+.down{
+    width: 100%;
+    height: 212px;
+}
+.line{
+    width: 1200px;
+    color: #bd3131;
+    border-color: #545454;
+}
+.social-media-icons{
+    display: flex;
+    width: 200px;
+    height: 43px;
+    margin-top: 29px;
+    margin-left: 131px;
+
+}
+.social-media-icons img{
+    height: 25px;
+    width: 25px;
+    padding-left: 30px;
+}
+.copywrite{
+    height: 30px;
+    width: 70%;
+    margin-left: 151px;
+    margin-top: 80px;
+    color: #979797;
+}
+.mail{
+    width: 26%;
+    height: 110px;
+    margin-left: 966px;
+    margin-top: -153px;
+}
+.massage{
+    height: 70px;
+    width: 70px;
+    position: fixed;
+    bottom: 30PX;
+    right: 30PX;
+}
+.massage img{
+    height: 100%;
+    width: 100%;
+
+    
+}
+#email{
+    height: 40px;
+    width: 321px;
+    font-size: 15px;
+    padding-left: 20px;
+}
+.mail button{
+    background-color: #DCFD00;
+    border: none;
+    height: 43px;
+    width: 45px;
+    margin-left: -4px;
+}
+.mail input
+{
+    border: none;
+    height: 20px;
+    width: 20px;
+    margin-left: 0px    ;
+    
+
+}
+.mail span{
+       margin-top: 0px;
+    color: #a8a8a8;
+    font-family: sans-serif;
+    font-size: 15px;
+}
+.india1{
+    height: 18px;
+    width: 65px;
+    margin-top: -65px;
+    margin-left: 85%;
+   
+}
+.india1 img{
+    height: 42px;
+    width: 90px;
+
+}
+
